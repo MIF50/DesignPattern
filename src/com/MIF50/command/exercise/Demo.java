@@ -4,6 +4,7 @@ import com.MIF50.command.exercise.command.SetContrastCommand;
 import com.MIF50.command.exercise.command.SetTextCommand;
 import com.MIF50.command.exercise.command.UndoCommand;
 
+
 public class Demo {
 
     public static void main(String[] args) {
