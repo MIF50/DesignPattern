@@ -2,7 +2,7 @@ package com.MIF50.observer;
 
 public class Chart implements Observer {
 
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     public Chart(DataSource dataSource) {
         this.dataSource = dataSource;

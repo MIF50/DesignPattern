@@ -2,7 +2,7 @@ package com.MIF50.observer;
 
 public class SpreadSheet implements Observer {
 
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     public SpreadSheet(DataSource dataSource) {
         this.dataSource = dataSource;
