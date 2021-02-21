@@ -1,6 +1,7 @@
 package com.MIF50.chainOfResponsibility.exercise;
 
 public abstract class DataReader {
+
     private DataReader next;
 
     public void setNext(DataReader next) {
@@ -20,6 +21,7 @@ public abstract class DataReader {
     }
 
     protected abstract String getExtension();
+
     protected abstract void doRead(String filename);
 
 
