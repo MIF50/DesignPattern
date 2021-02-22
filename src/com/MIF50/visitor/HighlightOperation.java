@@ -1,6 +1,7 @@
 package com.MIF50.visitor;
 
-public class HighlightOperation implements Operation{
+public class HighlightOperation implements Operation {
+
     @Override
     public void apply(AnchorNode node) {
         System.out.println("highlight-anchor");

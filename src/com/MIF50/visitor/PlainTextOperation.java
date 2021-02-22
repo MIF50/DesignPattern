@@ -1,6 +1,7 @@
 package com.MIF50.visitor;
 
-public class PlainTextOperation implements Operation{
+public class PlainTextOperation implements Operation {
+
     @Override
     public void apply(AnchorNode node) {
         System.out.println("plaintext-anchor");

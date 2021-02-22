@@ -1,6 +1,7 @@
 package com.MIF50.visitor.exercise;
 
 public class NormalizeFilter implements AudioFilter {
+
     @Override
     public void apply(FactSegment factSegment) {
         System.out.println("normalize-factSegment");

@@ -4,6 +4,7 @@ import com.MIF50.strategy.compress.Compressor;
 import com.MIF50.strategy.filter.Filter;
 
 public class ImageStorage {
+
     private final Compressor compressor;
     private final Filter filter;
 

@@ -11,6 +11,7 @@ public abstract class Window {
         //TODO: custom windows may need to execute some code after the window
         // is closed.
     }
+
     protected abstract void beforeClose();
     protected abstract void afterClose();
 }

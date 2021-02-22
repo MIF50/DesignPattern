@@ -1,6 +1,6 @@
 package com.MIF50.template.exercise;
 
-public class ChatWindow extends  Window{
+public class ChatWindow extends  Window {
 
     @Override
     protected void beforeClose() {
