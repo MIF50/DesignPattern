@@ -15,6 +15,6 @@ public class History {
         var lastIndex = states.size() -1;
         var lastState = states.get(lastIndex);
         states.remove(lastState);
-        return  lastState;
+        return lastState;
     }
 }
