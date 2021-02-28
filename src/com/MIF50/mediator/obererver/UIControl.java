@@ -3,7 +3,7 @@ package com.MIF50.mediator.obererver;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class  UIControl {
+public abstract class UIControl {
 
     private final List<EventHandler> eventHandlers = new ArrayList<>();
 

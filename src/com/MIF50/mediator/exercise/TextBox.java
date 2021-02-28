@@ -1,6 +1,7 @@
 package com.MIF50.mediator.exercise;
 
 public class TextBox extends UIControl {
+
     private String content;
 
     public String getContent() {

@@ -12,7 +12,6 @@ public class Demo {
 
         var uncommand = new UndoCommand(history);
         uncommand.execute();
-//        boldDocument.unexecute();
         System.out.println(document.getContent());
     }
 }

@@ -8,7 +8,7 @@ package com.MIF50.command.exercise.command;
 import com.MIF50.command.exercise.History;
 import com.MIF50.command.exercise.VideoEditor;
 
-public abstract class AbstractUndoableCommand implements UndoableCommand{
+public abstract class AbstractUndoableCommand implements UndoableCommand {
 
     protected VideoEditor videoEditor;
     protected History history;

@@ -9,7 +9,7 @@ public class Authenticator extends Handler {
     @Override
     public boolean doHandler(HttpRequest request) {
         var isValid = (request.getUsername().equals("admin") &&
-                request.getPassword().equals("1234"));
+                request.getPassword().equals("12345"));
         System.out.println("authenticate");
         return !isValid;
     }

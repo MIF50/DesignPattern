@@ -10,9 +10,5 @@ public class WebServer {
 
     public void handle(HttpRequest request) {
         handler.handle(request);
-        // Authentication
-        // Logging
-        // Compression
     }
-
 }

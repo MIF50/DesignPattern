@@ -11,12 +11,14 @@ public class Demo {
         var editor = new VideoEditor();
         var history = new History();
 
-        var command = new SetContrastCommand(2,history,editor);
+        var contrastCommand = new SetContrastCommand(2,history,editor);
         var textCommand = new SetTextCommand(editor,history,"video name");
+        contrastCommand.execute();
         textCommand.execute();
-        command.execute();
         System.out.println(editor);
+
         var undoCommand = new UndoCommand(history);
+        undoCommand.execute();
         undoCommand.execute();
         System.out.println(editor);
     }
