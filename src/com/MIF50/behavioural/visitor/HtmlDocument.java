@@ -1,5 +1,7 @@
 package com.MIF50.behavioural.visitor;
 
+import com.MIF50.behavioural.visitor.operation.Operation;
+
 import java.util.ArrayList;
 import java.util.List;
 

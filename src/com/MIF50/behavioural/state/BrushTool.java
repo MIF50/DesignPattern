@@ -1,6 +1,6 @@
 package com.MIF50.behavioural.state;
 
-public class BrushTool implements Tool{
+public class BrushTool implements Tool {
 
     @Override
     public void mouseDown() {

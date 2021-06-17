@@ -1,6 +1,6 @@
 package com.MIF50.behavioural.chainOfResponsibility.exercise;
 
-public class ExcelReader extends DataReader{
+public class ExcelReader extends DataReader {
 
     @Override
     protected String getExtension() {

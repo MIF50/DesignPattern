@@ -2,7 +2,7 @@ package com.MIF50.structural.adapter;
 
 public class ImageView {
 
-    private Image image;
+    private final Image image;
 
     public ImageView(Image image) {
         this.image = image;

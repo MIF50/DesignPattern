@@ -6,7 +6,7 @@ import com.MIF50.structural.adapter.Image;
 public class Caramel {
 
     public void init() {
-
+        System.out.println("init Caramel");
     }
 
     public void render(Image image) {

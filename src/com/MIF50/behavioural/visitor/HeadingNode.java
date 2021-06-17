@@ -1,6 +1,8 @@
 package com.MIF50.behavioural.visitor;
 
-public class HeadingNode implements HtmlNode{
+import com.MIF50.behavioural.visitor.operation.Operation;
+
+public class HeadingNode implements HtmlNode {
 
     @Override
     public void execute(Operation operation) {

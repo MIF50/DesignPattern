@@ -1,6 +1,6 @@
 package com.MIF50.behavioural.state;
 
-public class EraserTool implements Tool{
+public class EraserTool implements Tool {
 
     @Override
     public void mouseDown() {

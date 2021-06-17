@@ -9,6 +9,6 @@ public class Demo {
 //        var logger = new Logger(compressor);
         var authenticator = new Authenticator(compressor);
         var webServer = new WebServer(authenticator);
-        webServer.handle(new HttpRequest("admin", "1234"));
+        webServer.handle(new HttpRequest("admin", "12345"));
     }
 }

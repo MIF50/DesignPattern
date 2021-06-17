@@ -2,6 +2,7 @@ package com.MIF50.structural.adapter;
 
 import com.MIF50.structural.adapter.avaFilters.Caramel;
 
+// using composition
 public class CaramelFilter implements Filter {
 
     private final Caramel caramel;

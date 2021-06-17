@@ -1,6 +1,6 @@
 package com.MIF50.behavioural.observer;
 
-public class DataSource extends Observable{
+public class DataSource extends Observable {
 
     private int value;
 

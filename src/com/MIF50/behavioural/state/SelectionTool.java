@@ -1,6 +1,7 @@
 package com.MIF50.behavioural.state;
 
-public class SelectionTool implements Tool{
+public class SelectionTool implements Tool {
+
     @Override
     public void mouseDown() {
         System.out.println("Selection Icon");
