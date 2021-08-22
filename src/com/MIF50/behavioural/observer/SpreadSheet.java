@@ -10,6 +10,6 @@ public class SpreadSheet implements Observer {
 
     @Override
     public void update() {
-        System.out.println("Spread sheet got notified: "+dataSource.getValue());
+        System.out.println("Spread sheet got notified: "+ dataSource.getValue());
     }
 }

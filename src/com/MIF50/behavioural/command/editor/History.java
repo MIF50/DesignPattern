@@ -18,4 +18,8 @@ public class History {
     public int size() {
         return commands.size();
     }
+
+    public boolean isEmpty() {
+        return commands.size() == 0;
+    }
 }
